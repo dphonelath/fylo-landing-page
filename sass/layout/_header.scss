@@ -1,6 +1,27 @@
 .header{
     height: 100vh;
-    background-color: $color-white;
+    background-color: red;
     background-size: cover;
     background-position: top;
+    position: relative;
+
+    // &__images {
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    // }
+
+    &__backshape {
+        margin: 0;
+        float: right;
+    }
+
+    &__illustration {
+        margin: 0 auto;
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        text-align:center;
+    }
+
 }
